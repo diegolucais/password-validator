@@ -1,0 +1,39 @@
+h2 {
+     padding: 5% 0 5% 0;
+}
+
+#password-info h6 {
+     font-size: 15px;
+     text-align: center;
+     padding: 15px 0 8px 0;
+}
+
+#password-info {
+     position: absolute;
+     width: 260px;
+     background: #fefefe;
+     border-radius: 5px;
+     box-shadow: 0 1px 3px #ccc;
+     border: 1px solid #ddd;
+     display: none;
+}
+
+ #password-info::before {
+     content: "\25B2";
+     position: absolute;
+     top: -12px;
+     right: 45%;
+     font-size: 14px;
+     line-height: 14px;
+     color: #ddd;
+     text-shadow: none;
+     display: block;
+}
+
+.valid {
+     color: green;
+}
+
+.invalid {
+     color: red;
+}
